@@ -1,5 +1,3 @@
-import sys
-
 class Validator:
     validate_queue = ('type', 'positive', 'even')
     error_messages = {
