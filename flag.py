@@ -44,7 +44,7 @@ def flag(n):
     for line_pointer in range (height // 2):
         line = ''
         for row_pointer in range(width // 2):
-            if row_pointer == 0 or row_pointer == width - 1 or line_pointer == 0 or line_pointer == height - 1:
+            if row_pointer == 0 or line_pointer == 0:
                 line += flag_border
             elif line_pointer + row_pointer == 2 * n + 1:
                 line += circle_border
