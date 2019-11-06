@@ -36,10 +36,8 @@ def flag(n):
     flag_border = '#'
     circle_border = '*'
     inner_circle = 'o'
-    height_coefficient = 2
-    width_coefficient = 3
-    width = n * width_coefficient + 2
-    height = n * height_coefficient + 2
+    width = n * 3 + 2
+    height = n * 2 + 2
     flag = ''
     for line_pointer in range (height // 2):
         line = ''
